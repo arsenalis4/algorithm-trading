@@ -45,7 +45,7 @@ function App() {
     // Call the function once at the beginning
     fetchPrices();
 
-    // Set an interval to call the function every minute
+    // Set an interval to call the function every 5 seconds
     const interval = setInterval(fetchPrices, 5000);
 
     // Return a cleanup function to clear the interval
